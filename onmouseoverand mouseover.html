@@ -1,0 +1,65 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Mouse Over and Out</title>
+    <script src="Onmouseoverand out.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1> Onmouse over and onmouse out in JavaScript</h1>
+
+<img src="data:image/jpeg;base64,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" alt="Lion image" onmouseover="Image()"onmouseout="Image1()" id="Img">
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time </title>
+
+    <script>
+        function displaydate(){
+            document.getElementById("Date").innerHTML=Date();
+        }
+    </script> -->
+<!-- </head>
+<body>
+
+<button onmouseover="this.innerHTML=Date()"> Display </button>
+</body>
+</html> --> 
+
+<!-- <h1>Time Right Now</h1>
+
+    <button onclick="this.innerHTML=Date()"> Click to know the time right now </button>
+
+    <br>
+<br> -->
+
+<!-- <br><br>
+    <button onclick="displaydate()" id="Date">
+    Display the date</button> -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Submit the form</title>
+        <script src="Onmouseoverand out.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <form name="Myform" action="" method="post" onsubmit="return validateform()">
+
+            Name: <input type="text" name="Myform" placeholder="Enter Name">
+        </form>
+
+       
+        
+    </body>
+    </html>

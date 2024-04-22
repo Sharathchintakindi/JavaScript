@@ -1,0 +1,8 @@
+.container{
+    border: 2px solid rgb(176, 207, 185);
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <script>
+
+        function ValidateForm(){
+
+            let x = document.forms["myform"]["fname"].value;
+            if (x==!"Sharath")
+            {
+            alert("name has to be filled");
+        return false;
+        }
+    }
+    </script>
+</head>
+<body>
+    <form action="" name="myform" onsubmit=" return ValidateForm()" method="post" id="Form">
+    
+    Name: <input type="text" placeholder="Enter ur Name" name="fname" required>
+
+    <button>Submit</button>  
+    </form>
+</body>
+</html> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function validateform(){
+            var x= document.forms["Form"] ["Fname"].value;
+
+            if (x== "")
+            {
+                alert("Enter Your name");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    
+
+    <form action="" method="post" onclick="validateform()" name="Form">
+Name : <input type="text" placeholder="Enter Your name" name="Fname" >
+<br><br>
+
+<button>Submit</button>
+
+
+</form>
+</body>
+</html>
+
+
+
